@@ -44,13 +44,29 @@ export function Features() {
   return (
     <section className="py-28 px-4">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <Typography
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
+          color="blue-gray"
+          className="mb-2 font-bold uppercase"
+        >
           Live Commerce App
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        <Typography
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
+          variant="h1"
+          color="blue-gray"
+          className="mb-4"
+        >
           Shop the Stream, Own the Deal!
         </Typography>
         <Typography
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "
         >

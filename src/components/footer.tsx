@@ -12,6 +12,9 @@ export function Footer() {
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
             <Typography
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
               as="a"
               href="https://www.material-tailwind.com"
               target="_blank"
@@ -21,13 +24,22 @@ export function Footer() {
             >
               Live Nigd
             </Typography>
-            <Typography color="white" className="mb-12 font-normal">
+            <Typography
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              color="white"
+              className="mb-12 font-normal"
+            >
               The Market, Live and Unfiltered!
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
                   <Typography
+                    placeholder=""
+                    onPointerEnterCapture={() => {}}
+                    onPointerLeaveCapture={() => {}}
                     as="a"
                     href="#"
                     color="white"
@@ -42,11 +54,21 @@ export function Footer() {
             </ul>
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
-            <Typography variant="h6" color="white" className="mb-3">
+            <Typography
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              variant="h6"
+              color="white"
+              className="mb-3"
+            >
               Get the app
             </Typography>
             <div className="flex flex-col gap-2">
               <Button
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
                 color="white"
                 className="flex items-center justify-center"
               >
@@ -60,6 +82,9 @@ export function Footer() {
                 App Store
               </Button>
               <Button
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
                 color="white"
                 className="flex items-center justify-center"
               >
@@ -77,34 +102,60 @@ export function Footer() {
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
           <Typography
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
             color="white"
             className="text-center font-normal opacity-75"
           >
-            &copy; {CURRENT_YEAR} Made with{" "}
-            <a href="https://www.material-tailwind.com" target="_blank">
-              Next.js
-            </a>{" "}
-            and{" "}
-            <a href="https://www.creative-tim.com" target="_blank">
-              Tailwind CSS
-            </a>
-            .
+            &copy; {CURRENT_YEAR} Made with <a>Next.js</a> and{" "}
+            <a>Tailwind CSS</a>.
           </Typography>
 
           <div className="flex gap-2">
-            <IconButton variant="text" color="white">
+            <IconButton
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              variant="text"
+              color="white"
+            >
               <i className="fa-brands fa-twitter text-2xl not-italic opacity-75"></i>
             </IconButton>
-            <IconButton variant="text" color="white">
+            <IconButton
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              variant="text"
+              color="white"
+            >
               <i className="fa-brands fa-linkedin text-2xl not-italic opacity-75"></i>
             </IconButton>
-            <IconButton variant="text" color="white">
+            <IconButton
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              variant="text"
+              color="white"
+            >
               <i className="fa-brands fa-facebook text-2xl not-italic opacity-75"></i>
             </IconButton>
-            <IconButton variant="text" color="white">
+            <IconButton
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              variant="text"
+              color="white"
+            >
               <i className="fa-brands fa-github text-2xl not-italic opacity-75"></i>
             </IconButton>
-            <IconButton variant="text" color="white">
+            <IconButton
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              variant="text"
+              color="white"
+            >
               <i className="fa-brands fa-dribbble text-2xl not-italic opacity-75"></i>
             </IconButton>
           </div>

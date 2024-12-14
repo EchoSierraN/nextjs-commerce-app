@@ -16,6 +16,9 @@ function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
       <Typography
+        placeholder=""
+        onPointerEnterCapture={() => {}}
+        onPointerLeaveCapture={() => {}}
         as="a"
         href={href || "#"}
         target={href ? "_blank" : "_self"}
@@ -59,6 +62,9 @@ export function Navbar() {
 
   return (
     <MTNavbar
+      placeholder=""
+      onPointerEnterCapture={() => {}}
+      onPointerLeaveCapture={() => {}}
       fullWidth
       shadow={false}
       blurred={false}
@@ -67,6 +73,9 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
           as="a"
           href="https://www.material-tailwind.com"
           target="_blank"
@@ -86,6 +95,9 @@ export function Navbar() {
         </ul>
         <div className="hidden gap-2 lg:flex lg:items-center">
           <IconButton
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"
@@ -93,6 +105,9 @@ export function Navbar() {
             <i className="fa-brands fa-twitter text-base" />
           </IconButton>
           <IconButton
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"
@@ -100,6 +115,9 @@ export function Navbar() {
             <i className="fa-brands fa-facebook text-base" />
           </IconButton>
           <IconButton
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"
@@ -108,6 +126,9 @@ export function Navbar() {
           </IconButton>
         </div>
         <IconButton
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
           variant="text"
           color={isScrolling ? "gray" : "white"}
           onClick={handleOpen}
@@ -128,17 +149,45 @@ export function Navbar() {
             <NavItem>Contact Us</NavItem>
           </ul>
           <div className="mt-4 flex items-center gap-2">
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              variant="text"
+              color="gray"
+              size="sm"
+            >
               <i className="fa-brands fa-twitter text-base" />
             </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              variant="text"
+              color="gray"
+              size="sm"
+            >
               <i className="fa-brands fa-facebook text-base" />
             </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              variant="text"
+              color="gray"
+              size="sm"
+            >
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
-            <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray" size="sm" className="ml-auto">
+            <a>
+              <Button
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+                color="gray"
+                size="sm"
+                className="ml-auto"
+              >
                 Blocks
               </Button>
             </a>
