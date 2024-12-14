@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { Button, Typography } from "@material-tailwind/react";
 
-
 function Hero() {
   return (
     <div className="relative min-h-screen w-full">
@@ -11,14 +10,14 @@ function Hero() {
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography variant="h1" color="white" className="mb-4">
-              Your Perfect <br /> Learning App
+              Trading perfected <br /> through discovery
             </Typography>
             <Typography
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
             >
-              Our app is here to empower you on your quest for knowledge,
-              anytime and anywhere.
+              Our app enables a quick video based presentation of products you
+              love, and means to reserve them from people who want it less.
             </Typography>
             <Typography className="mb-4" color="white" variant="h6">
               Get the app
@@ -66,15 +65,15 @@ function Hero() {
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
           <Typography variant="h3" color="blue-gray" className="mb-3">
-            Learning App
+            Live Commerce
           </Typography>
           <Typography
             variant="paragraph"
             className="font-normal !text-gray-500 lg:w-5/12"
           >
-            Download our app to dive into a vast library of courses, tutorials,
-            and study materials on a wide range of subjects - from programming
-            and language learning to personal development and beyond
+            Download our app to discover products you love. Get access to
+            limited time offers. Outbid other customers on products you need
+            badly.
           </Typography>
         </div>
       </div>
