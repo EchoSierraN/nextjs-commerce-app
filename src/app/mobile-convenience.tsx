@@ -7,20 +7,20 @@ import { Typography, Card, CardBody } from "@material-tailwind/react";
 
 const OPTIONS = [
   {
-    title: "100",
-    description: "Learning Courses",
+    title: "30",
+    description: "Live Streams a Day",
   },
   {
-    title: "500+",
-    description: "Expert Instructors",
+    title: "5+ minutes",
+    description: "Stream duration",
   },
   {
-    title: "24/7",
-    description: "Support",
+    title: "5",
+    description: "Products per Stream",
   },
   {
-    title: "5/5",
-    description: "Review Stars",
+    title: "Free Shipping",
+    description: "On all products within Addis Ababa",
   },
 ];
 
@@ -43,7 +43,9 @@ export function MobileConvenience() {
             variant="lead"
             className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
           >
-            Access your learning materials on the go.
+            Make deals on the go! A reimagined user experience allows you to
+            grab limited-time deals, and win the best prices on products you
+            love.
           </Typography>
 
           <div className="col-span-2 grid gap-5 grid-cols-2 ">

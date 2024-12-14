@@ -15,27 +15,28 @@ import FeatureCard from "../components/feature-card";
 const FEATURES = [
   {
     icon: CursorArrowRaysIcon,
-    title: "Expert Instructors",
+    title: "Interactive Prices",
     children:
-      "Learn from the best. Our instructors are industry experts, academics, and seasoned professionals dedicated to helping you.",
+      "Commit to the products you love. Be the last person standing at the end of the bid.",
   },
   {
     icon: HeartIcon,
-    title: "Interactive Learning",
+    title: "Find long lost interests",
     children:
-      "Engage with interactive quizzes, hands-on exercises, and discussion forums to reinforce your understanding and connect.",
+      "Advertisement is discovery based. Sit back and let your favorite products find you.",
   },
+
   {
     icon: LockClosedIcon,
     title: "Achievement Unlocked",
     children:
-      "Earn certificates and badges as you complete courses, showcasing your newfound skills to the world.",
+      "Stand above the crowd. Earn cupons that make future purchases easier.",
   },
   {
     icon: LightBulbIcon,
-    title: "Personalized Progress Tracking",
+    title: "Personalized Recommendations",
     children:
-      "Stay on top of your learning journey with progress tracking and personalized recommendations to keep you motivated.",
+      "Teach our app what you want. Products tailored to your needs will be sent your way.",
   },
 ];
 
